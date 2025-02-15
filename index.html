@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Translator</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 AI Translator</h1>
+    <div class="wrapper">
+      <div class="text-input">
+        <textarea class="from-text" placeholder="Enter text..."></textarea>
+        <div class="controls">
+          <div class="icons">
+            <ion-icon id="from-speaker" name="volume-medium-outline"></ion-icon>
+            <ion-icon id="from-copy" name="copy-outline"></ion-icon>
+          </div>
+          <select></select>
+        </div>
+      </div>
+
+      <div class="exchange">
+        <ion-icon name="swap-horizontal-outline"></ion-icon>
+      </div>
+
+      <div class="text-input">
+        <textarea class="to-text" readonly placeholder="Translation"></textarea>
+        <div class="controls">
+          <select></select>
+          <div class="icons">
+            <ion-icon id="to-speaker" name="volume-medium-outline"></ion-icon>
+            <ion-icon id="to-copy" name="copy-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="translate-btn">Translate</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons.min.js"></script>
+</body>
+</html>
